@@ -10,6 +10,11 @@ namespace Fleet_Tracking_Platform.Assets.Scripts
 
         public string Encrypt(string encryptString)
         {
+            ///<summary>
+            /// Encryption method to encrypt password
+            /// @param: str -> Password value
+            /// @return str -> Encrypted Password
+            /// </summary>
             string EncryptionKey = "0ram@1234xxxxxxxxxxtttttuuuuuiiiiio";  //we can change the code converstion key as per our requirement    
             byte[] clearBytes = Encoding.Unicode.GetBytes(encryptString);
             using (Aes encryptor = Aes.Create())
@@ -32,6 +37,11 @@ namespace Fleet_Tracking_Platform.Assets.Scripts
 
         public string Decrypt(string cipherText)
         {
+            ///<summary>
+            /// Encryption method to decrypt password
+            /// @param: str -> Encrypted Password value
+            /// @return str -> Dencrypted Password
+            /// </summary>
             string EncryptionKey = "0ram@1234xxxxxxxxxxtttttuuuuuiiiiio";  //we can change the code converstion key as per our requirement, but the decryption key should be same as encryption key                
             byte[] cipherBytes = Convert.FromBase64String(cipherText);
             using (Aes encryptor = Aes.Create())
