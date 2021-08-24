@@ -6,26 +6,28 @@
              xmlns:local="clr-namespace:Fleet_Tracking_Platform"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800" Background="White">
     <Grid>
-        <Canvas Background="White">
-            <Label Content="Payment details" Canvas.Left="275" Canvas.Top="10" FontSize="28" FontFamily="Cambria" FontWeight="Bold" Foreground="#FF4196E1"/>
-            <TextBlock Canvas.Left="50" Canvas.Top="75" TextWrapping="Wrap" Height="80" Width="515" FontSize="20" FontFamily="Californian FB">
-             <Run Text="Your payment details are stored safely and securely. "/><LineBreak/><Run Text="These card details will be used for your R1 500 monthly  bill"/><Run Language="en-gb" Text="."/><LineBreak/><Run Language="en-gb" Text="And if consultation is required R850 will be deducted per hour"/></TextBlock>
-            <Border BorderThickness="1" BorderBrush="#FFDDDDDD" Height="44" Width="345" Canvas.Left="50" Canvas.Top="160" CornerRadius="10">
-                <TextBox x:Name="CardNum_txt" materialDesign:HintAssist.Hint="Card Number"  TextWrapping="Wrap" Margin="0,9,0,9" HorizontalAlignment="Center" Width="325"  FontSize="14"/>
-            </Border>
-            <Border BorderThickness="1" BorderBrush="#FFDDDDDD" Height="44" Width="202" Canvas.Left="463" Canvas.Top="160" CornerRadius="10">
-                <TextBox x:Name="CVV_txt" materialDesign:HintAssist.Hint="CVV" TextWrapping="Wrap" Margin="9,9,9,9"/>
-            </Border>
-            <Border BorderThickness="1" BorderBrush="#FFDDDDDD" Height="44" Width="345" Canvas.Left="50" Canvas.Top="225" CornerRadius="10">
-                <TextBox x:Name="CardHolder_txt" materialDesign:HintAssist.Hint="Card Holder" TextWrapping="Wrap" Margin="9,9,9,9"/>
-            </Border>
-            <Border BorderThickness="1" BorderBrush="#FFDDDDDD" Height="44" Width="202" Canvas.Left="463" Canvas.Top="225" CornerRadius="10">
-                <TextBox x:Name="ExpDate_txt" materialDesign:HintAssist.Hint="MM/YY" TextWrapping="Wrap" Margin="9,9,9,9"/>
-            </Border>
-            <Button x:Name="paymentNext_btn" Content="Next" Canvas.Left="50" Canvas.Top="295" Height="30" Width="80" FontFamily="Bell MT" FontSize="22" Background="#FF4196E1" Foreground="White"/>
+        <Canvas >
+            <Border Background="#29ab87" Height="54" Canvas.Top="43">
+                <Label x:Name="lblPaymentInfo_cap" Foreground="white" FontSize="28" Content="Payment Details" Canvas.Left="-4" Canvas.Top="49" HorizontalContentAlignment="Center" Width="1034" FontWeight="Bold" Margin="0,10,0,-10"/>
 
+            </Border>
+            <Border BorderThickness="1" Height="623" Width="335" Canvas.Top="97" Background="#FF29AB87">
+                <Canvas>
+                    <TextBlock x:Name="lblPaymentInfo_sub" Text="Your payment details are stored safely and securely." TextWrapping="Wrap" Margin="9,113,25,451" FontSize="18" Foreground="White" FontWeight="Normal" Height="60" Canvas.Left="8" Width="315"/>
+                    <TextBlock x:Name="lblPaymentInfo_sub2" Canvas.Left="17" Canvas.Top="173" Text="The details will be used for your R1 500 license bill" TextWrapping="Wrap" Foreground="White" FontSize="18" Height="60" Width="280"/>
+                    <TextBlock x:Name="lblPaymentInfo_sub3" Canvas.Left="17" Canvas.Top="238" Text="And if consultation is required R850 will be deducted per hour." TextWrapping="Wrap" FontSize="18" Foreground="White" Width="307"/>
+                </Canvas>
+            </Border>
         </Canvas>
+        <StackPanel Margin="333,180,0,0">
+            <TextBox x:Name="txtCardHolder" materialDesign:HintAssist.Hint="Card Holder" Width="300" HorizontalAlignment="Center" Margin="20, 45, 0, 0"/>
+            <TextBox x:Name="txtCardNum" materialDesign:HintAssist.Hint="Card Number" Width="300" HorizontalAlignment="Center" Margin="20, 45, 0, 0"/>
+            <TextBox x:Name="txtCardCVV" materialDesign:HintAssist.Hint="CVV" Width="300" HorizontalAlignment="Center" Margin="20, 45, 0, 0"/>
+            <TextBox x:Name="txtContract_Expdate" materialDesign:HintAssist.Hint="YY/MM " Width="300" HorizontalAlignment="Center" Margin="20, 45, 0, 0"/>
+            <Button Content="Submit" Width="162" Margin="30" Background="#29ab87" BorderBrush="{x:Null}"/>
+
+        </StackPanel>
     </Grid>
 </UserControl>

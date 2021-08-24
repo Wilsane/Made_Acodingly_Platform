@@ -13,7 +13,25 @@
     <Compile Update="Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Navigation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Overview_AddUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Payment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Service_addAppoint.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Service_Appointments.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Timesheet_tbl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vehicle_Addnew.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -27,7 +45,25 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Navigation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Overview_AddUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Payment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Service_addAppoint.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Service_Appointments.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Timesheet_tbl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vehicle_Addnew.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\College Work\\Second Year\\Second Semester\\Work Integrated Learning\\Project\\Fleet Tracking Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj": {}
+    "C:\\Users\\ODIRILE\\Desktop\\Made_Acodingly_Platform-main\\Made_Acodingly_Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj": {}
   },
   "projects": {
-    "G:\\College Work\\Second Year\\Second Semester\\Work Integrated Learning\\Project\\Fleet Tracking Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj": {
+    "C:\\Users\\ODIRILE\\Desktop\\Made_Acodingly_Platform-main\\Made_Acodingly_Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\College Work\\Second Year\\Second Semester\\Work Integrated Learning\\Project\\Fleet Tracking Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj",
+        "projectUniqueName": "C:\\Users\\ODIRILE\\Desktop\\Made_Acodingly_Platform-main\\Made_Acodingly_Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj",
         "projectName": "Fleet_Tracking_Platform",
-        "projectPath": "G:\\College Work\\Second Year\\Second Semester\\Work Integrated Learning\\Project\\Fleet Tracking Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj",
-        "packagesPath": "C:\\Users\\keaga\\.nuget\\packages\\",
-        "outputPath": "G:\\College Work\\Second Year\\Second Semester\\Work Integrated Learning\\Project\\Fleet Tracking Platform\\Fleet_Tracking_Platform\\obj\\",
+        "projectPath": "C:\\Users\\ODIRILE\\Desktop\\Made_Acodingly_Platform-main\\Made_Acodingly_Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj",
+        "packagesPath": "C:\\Users\\ODIRILE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ODIRILE\\Desktop\\Made_Acodingly_Platform-main\\Made_Acodingly_Platform\\Fleet_Tracking_Platform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\keaga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ODIRILE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -46,6 +46,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "FontAwesome.WPF": {
+              "target": "Package",
+              "version": "[4.7.0.9, )"
+            },
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -69,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
         }
       }
     }

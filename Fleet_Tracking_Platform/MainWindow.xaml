@@ -8,6 +8,11 @@
         mc:Ignorable="d"        
         Title="MainWindow" Height="720" Width="1280">
     <Grid>
-        <TextBox materialDesign:HintAssist.Hint="Work" Width="100"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+
+
     </Grid>
 </Window>

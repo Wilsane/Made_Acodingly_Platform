@@ -1,11 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "zt70xo7qfpm/WmM3HtL1mdXdmo9kS7/EBFWge5E62YMNiR1+1OKXTUY1fWqryFc72Z57qQx/kFMzwodyc/s40w==",
+  "dgSpecHash": "/Nj00I+Fm8XbCQdtT+TBXrmVcomTfg3VhHasjuF1OUteiWue8cILIcfw1YvOxyN2kSf4xlBdsTEcL7Wn1uwapA==",
   "success": true,
-  "projectFilePath": "G:\\College Work\\Second Year\\Second Semester\\Work Integrated Learning\\Project\\Fleet Tracking Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj",
+  "projectFilePath": "C:\\Users\\ODIRILE\\Desktop\\Made_Acodingly_Platform-main\\Made_Acodingly_Platform\\Fleet_Tracking_Platform\\Fleet_Tracking_Platform.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\keaga\\.nuget\\packages\\materialdesigncolors\\2.0.1\\materialdesigncolors.2.0.1.nupkg.sha512",
-    "C:\\Users\\keaga\\.nuget\\packages\\materialdesignthemes\\4.1.0\\materialdesignthemes.4.1.0.nupkg.sha512"
+    "C:\\Users\\ODIRILE\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512",
+    "C:\\Users\\ODIRILE\\.nuget\\packages\\materialdesigncolors\\2.0.1\\materialdesigncolors.2.0.1.nupkg.sha512",
+    "C:\\Users\\ODIRILE\\.nuget\\packages\\materialdesignthemes\\4.1.0\\materialdesignthemes.4.1.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FontAwesome.WPF 4.7.0.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "FontAwesome.WPF",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

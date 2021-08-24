@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\College Work\Second Year\Second Semester\Work Integrated Learning\Project\Fleet Tracking Platform\Fleet_Tracking_Platform\obj\Debug\netcoreapp3.1\
+C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fleet_Tracking_Platform\obj\Debug\netcoreapp3.1\
 Fleet_Tracking_Platform
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-G:\College Work\Second Year\Second Semester\Work Integrated Learning\Project\Fleet Tracking Platform\Fleet_Tracking_Platform\App.xaml
-41809136164
+C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fleet_Tracking_Platform\App.xaml
+101074199656
 
-91596246189
-1941381757779
-CreateAccount.xaml;Login.xaml;MainWindow.xaml;Payment.xaml;
+15-1122199215
+1951573202805
+CreateAccount.xaml;Login.xaml;MainWindow.xaml;Navigation.xaml;Overview_AddUser.xaml;Payment.xaml;Service_addAppoint.xaml;Service_Appointments.xaml;Timesheet_tbl.xaml;Vehicle_Addnew.xaml;
 
 False
 

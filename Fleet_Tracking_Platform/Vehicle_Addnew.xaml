@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="Fleet_Tracking_Platform.Vehicle_Addnew"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:Fleet_Tracking_Platform"
+             mc:Ignorable="d" Background="White" Width="1026" Height="685">
+    <Grid>
+        <Canvas>
+            <Border Background="#27ab87" Width="1030">
+                <Label Content="Add vehicle" FontSize="28" Foreground="White" HorizontalContentAlignment="Center"/>
+            </Border>
+            <StackPanel Height="638" Width="488" Canvas.Top="45" Orientation="Vertical" Canvas.Left="236" >
+
+                <!--Vehicle type-->
+                <ComboBox x:Name="drp_VehicleType" materialDesign:HintAssist.Hint="Vehicle type" FontSize="18" Margin="20, 45, 0, 0" Canvas.Left="313" Canvas.Top="171" Width="460" materialDesign:ComboBoxAssist.ShowSelectedItem="True">
+                    <ComboBoxItem x:Name="drp_vehTy_BusLess15" >
+                        <TextBlock Text="Bus(15 OR less "/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_vehTy_BusGreater15" >
+                        <TextBlock Text="Bus(16 OR more"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_vehTy_Track_Trailer" >
+                        <TextBlock Text="Truck/Trailer (Single unit track pulling a  trailer) "/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_vehTy_TruckTractor" >
+                        <TextBlock Text="Truck Tractor (Bobtail) "/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_vehTy_Tractor_SemiTrailer" >
+                        <TextBlock Text="Tractor/ Semi trailer (1 trailer)"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_vehTy_Tractor_2Trailer_" >
+                        <TextBlock Text="Truck tractor/ double (2 trailers)"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_vehTy_TruckTrailer" >
+                        <TextBlock Text="Truck trailer/ tripple (3 trailers)"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_vehTy_SingleUnit_2axle_6tyres" >
+                        <TextBlock Text="Single-Unit (2 axles, 6 tyres)"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_vehTy_SingleUnit_3ORmore" >
+                        <TextBlock Text="Single-Unit (3 or more axles)"/>
+                    </ComboBoxItem>
+                </ComboBox>
+
+                <!--Cargo body type-->
+                <ComboBox x:Name="drp_CargoType" materialDesign:HintAssist.Hint="Cargo body type" FontSize="18" Margin="20, 45, 0, 0" Canvas.Left="313" Canvas.Top="171" Width="460" materialDesign:ComboBoxAssist.ShowSelectedItem="True">
+                    <ComboBoxItem x:Name="drp_CargTyp_Bus_9To15" >
+                        <TextBlock Text="Bus (9 to 15 sits including the driver) "/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_Bus_16OrMore">
+                        <TextBlock Text="Bus (16 OR more including the Driver)"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_Van_EnclodedBx" >
+                        <TextBlock Text="Van/ Encloded Box "/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_CargoTank" >
+                        <TextBlock Text="Cargo tank "/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_FlatBed">
+                        <TextBlock Text="Flat Bed"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_Dump" >
+                        <TextBlock Text="Dump"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_ConcMixer" >
+                        <TextBlock Text="Concrete Mixer"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_AutoTrans" >
+                        <TextBlock Text="Auto Transporter"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_Carbage" >
+                        <TextBlock Text="Garbage/ Refuse"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_Grain_Chips_Gravel" >
+                        <TextBlock Text="Grain, Chips, Gravel"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_Pole" >
+                        <TextBlock Text="Pole "/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_Log" >
+                        <TextBlock Text="Log"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_InterChassis" >
+                        <TextBlock Text="Intermodel Chassis"/>
+                    </ComboBoxItem >
+                    <ComboBoxItem x:Name="drp_CargTyp_VehTowMotor" >
+                        <TextBlock Text="Vehicle Towing Motor vehicle"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="drp_CargTyp_NoCargoBody" >
+                        <TextBlock Text="No cargo body"/>
+                    </ComboBoxItem>
+                </ComboBox>
+
+                <TextBox x:Name="txt_VehicleRegistration"  Width="460" materialDesign:HintAssist.Hint="Registration Number" FontSize="18" Margin="20, 45, 0, 0"/>
+                <TextBox x:Name="txt_Manufacture"  Width="460" materialDesign:HintAssist.Hint="Manufacturer " FontSize="18" Margin="20, 45, 0, 0" />
+                <TextBox x:Name="txt_EngineSize"  Width="460" materialDesign:HintAssist.Hint="Engine size " FontSize="18" Margin="20, 45, 0, 0" />
+                <TextBox x:Name="txt_CurrOdo"  Width="460" materialDesign:HintAssist.Hint="Current odometer " FontSize="18" Margin="20, 45, 0, 0" />
+                <TextBox x:Name="txt_NextServOdo"  Width="460" materialDesign:HintAssist.Hint="Next service odometer reading " FontSize="18" Margin="20, 45, 0, 0" />
+
+                <WrapPanel Width="460" Orientation="Horizontal" Margin="20, 45, 0, 0">
+                    <TextBox x:Name="txt_GenedVehicleID"  TextWrapping="Wrap" Width="370" materialDesign:HintAssist.Hint="Vehicle Unique ID" FontSize="18" />
+                    <Button x:Name="btn_GeneVehicleID" Content="Generate" Width="90" BorderBrush="#FF27AB87" Background="#FF27AB87"/>
+                </WrapPanel>
+                <Border Margin="0, 55, 0, 0" Background="#27ab87" BorderThickness="1" CornerRadius="30" Width="150" Height="55">
+                    <Label x:Name="lblCreateUser" Content="Create User" Foreground="White" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                </Border>
+            </StackPanel>
+            <fa:ImageAwesome x:Name="btn_AddVehicle" Icon="PlusSquareOutline" Foreground="#27ab87" Canvas.Left="778" Canvas.Top="612" Height="57" Width="77"/>
+        </Canvas>
+    </Grid>
+</UserControl>

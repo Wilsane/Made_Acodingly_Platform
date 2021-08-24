@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Fleet_Tracking_Platform.Service_Appointments"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Fleet_Tracking_Platform"
+             mc:Ignorable="d" d:DesignWidth="1030" Background="white" Height="705">
+    <Grid>
+        <Canvas>
+            <Border Background="#27ab87" Width="1030">
+                <Label Content="View Service Appointment" FontSize="28" Foreground="White" HorizontalContentAlignment="Center"/>
+            </Border>
+            <TextBox x:Name="txt_SearchAppointment" materialDesign:HintAssist.Hint="SEARCH" FontSize="18" Margin="0,0,10,0" Canvas.Left="792" Canvas.Top="50" Width="228" Height="35"/>
+            <fa:ImageAwesome Icon="SearchPlus" Foreground="#27ab87" Canvas.Left="744" Canvas.Top="50" Height="28" Width="53"/>
+            <fa:ImageAwesome x:Name="AltServicePrintAppoints_btn"  Icon="Print" Foreground="#27ab87" Canvas.Left="-9" Canvas.Top="54" Height="62" Width="85"/>
+            <Button x:Name="PrintServiceAppoints_btn" Content="Print" Width="117" BorderBrush="#FF27AB87" Background="#FF27AB87" Height="50" Canvas.Left="913" Canvas.Top="645" FontSize="18"/>
+            <DataGrid BorderThickness="2" x:Name="ServiceAppointments_tbl" Height="519" Width="1030" Canvas.Top="121" BorderBrush="#FF27AB87" Foreground="Black">
+                <DataGrid.Resources>
+                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                        <Setter Property="Background" Value="#27ab87"/>
+                        <Setter Property="FontWeight" Value="SemiBold"/>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="BorderBrush" Value="Black"/>
+                        <Setter Property="FontSize" Value="18"/>
+                    </Style>
+                </DataGrid.Resources>
+                <!--Column titles-->
+                <DataGrid.Columns  >
+                    <DataGridTextColumn Header="Appointment Time"/>
+                    <DataGridTextColumn Header="Vehicle Number"/>
+                    <DataGridTextColumn Header="Services" Width="240"/>
+                    <DataGridTextColumn Header="Procedure Code"/>
+                    <DataGridTextColumn Header="Procedure Description" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </Canvas>
+    </Grid>
+</UserControl>
