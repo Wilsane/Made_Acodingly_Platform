@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fleet_Tracking_Platform\App.xaml
-101074199656
+111626380935
 
-13-49315149
+14-2029751071
 1951573202805
-CreateAccount.xaml;Login.xaml;MainWindow.xaml;Navigation.xaml;Overview_AddUser.xaml;Payment.xaml;Service_addAppoint.xaml;Service_Appointments.xaml;Timesheet_tbl.xaml;Vehicle_Addnew.xaml;
+AccessPermission.xaml;CreateAccount.xaml;Login.xaml;MainWindow.xaml;Navigation.xaml;Overview_AddUser.xaml;Payment.xaml;Service_addAppoint.xaml;Service_Appointments.xaml;Timesheet_tbl.xaml;Vehicle_Addnew.xaml;
 
 False
 

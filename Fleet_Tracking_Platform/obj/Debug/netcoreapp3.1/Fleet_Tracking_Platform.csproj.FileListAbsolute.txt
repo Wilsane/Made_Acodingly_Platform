@@ -69,3 +69,5 @@ C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fl
 C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fleet_Tracking_Platform\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fleet_Tracking_Platform\obj\Debug\netcoreapp3.1\Vehicle_Addnew.g.cs
 C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fleet_Tracking_Platform\obj\Debug\netcoreapp3.1\Vehicle_Addnew.baml
+C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fleet_Tracking_Platform\obj\Debug\netcoreapp3.1\AccessPermission.g.cs
+C:\Users\ODIRILE\Desktop\Made_Acodingly_Platform-main\Made_Acodingly_Platform\Fleet_Tracking_Platform\obj\Debug\netcoreapp3.1\AccessPermission.baml

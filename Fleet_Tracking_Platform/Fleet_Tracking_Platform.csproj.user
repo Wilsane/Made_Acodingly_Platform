@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AccessPermission.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CreateAccount.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -36,6 +39,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AccessPermission.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CreateAccount.xaml">
       <SubType>Designer</SubType>
     </Page>

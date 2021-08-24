@@ -18,7 +18,7 @@
                     <MenuItem.Icon>
                         <fa:FontAwesome Icon="PencilSquareOutline"/>
                     </MenuItem.Icon>
-                    <MenuItem Header="View" Foreground="Black">
+                    <MenuItem Header="View users" Foreground="Black">
                         <MenuItem.Icon>
                             <fa:FontAwesome Icon="Eye"/>
                         </MenuItem.Icon>
@@ -42,7 +42,7 @@
                     </MenuItem>
                     <MenuItem Header="View vehicle" Foreground="Black">
                         <MenuItem.Icon>
-                            <fa:FontAwesome Icon="Stethoscope"/>
+                            <fa:FontAwesome Icon="Database"/>
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
@@ -67,7 +67,16 @@
                     <MenuItem.Icon>
                         <fa:FontAwesome Icon="Gears"/>
                     </MenuItem.Icon>
-                    <MenuItem Header="View Vehicles"></MenuItem>
+                    <MenuItem Header="Add  Appointments" Foreground="Black">
+                        <MenuItem.Icon>
+                            <fa:FontAwesome Icon="Save"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="View Appointments" Foreground="Black">
+                        <MenuItem.Icon>
+                            <fa:FontAwesome Icon="Table"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
                 </MenuItem>
 
                 <!--Timesheet-->
@@ -75,12 +84,12 @@
                     <MenuItem.Icon>
                         <fa:FontAwesome Icon="Table"/>
                     </MenuItem.Icon>
-                    <Rectangle HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="100"/>
                 </MenuItem>
 
             </Menu>
             <Border Margin="0, 55, 0, 0" BorderBrush="White" BorderThickness="1" CornerRadius="30" Width="150" Height="55">
-                <Label x:Name="lblLogin" Content="Exit" Foreground="White" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label x:Name="lblLogin" Content="Exit" Foreground="White" FontSize="16" HorizontalContentAlignment="Center" 
+                       VerticalContentAlignment="Center"/>
             </Border>
 
         </StackPanel>

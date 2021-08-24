@@ -12,6 +12,7 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
+        <local:Navigation HorizontalAlignment="Left" Margin="-239,0,0,0" VerticalAlignment="Center" Width="1519" Height="684"/>
 
 
     </Grid>
